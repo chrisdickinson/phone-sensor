@@ -1,0 +1,32 @@
+{
+  "name": "phone-sensor",
+  "version": "0.0.0",
+  "description": "turn your phone into a sensor for great justice.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/chrisdickinson/phone-sensor.git"
+  },
+  "keywords": [
+    "phone",
+    "sensor",
+    "hardware"
+  ],
+  "author": "Chris Dickinson <chris@neversaw.us>",
+  "license": "MIT",
+  "dependencies": {
+    "my-local-ip": "~1.0.0",
+    "browserify": "~2.22.0",
+    "shoe": "0.0.11",
+    "through": "~2.3.4",
+    "portfinder": "~0.2.1",
+    "domready": "~0.2.11",
+    "dnode": "~1.0.5"
+  },
+  "devDependencies": {
+    "tape": "~1.0.4"
+  }
+}
